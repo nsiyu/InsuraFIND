@@ -35,7 +35,7 @@ const Result = ({ navigation }) => {
             paddingBottom: "5%",
           }}
         >
-           : Renters Insurance
+          : Renters Insurance
         </Text>
         <Text
           style={{
@@ -71,13 +71,14 @@ const Result = ({ navigation }) => {
           Pet Insurance :
         </Text>
         <Button
+          onPress={() => navigation.navigate("Chat")}
           style={{
             color: "#fff",
             marginLeft: 50,
             fontSize: 30,
             fontWeight: "900",
-            width: '60%',
-            backgroundColor: 'grey',
+            width: "60%",
+            backgroundColor: "grey",
           }}
         >
           Talk to Jake to learn more!

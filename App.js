@@ -13,7 +13,7 @@ import Q4 from "./Q4.js";
 import Q5 from "./Q5.js";
 import Loading from "./Loading.js";
 import Result from "./Result.js";
-
+import Chat from "./Chat.js";
 
 
 export default function App() {
@@ -33,6 +33,7 @@ export default function App() {
         <Stack.Screen name="Q5" component={Q5}></Stack.Screen>
         <Stack.Screen name="Loading" component={Loading}></Stack.Screen>
         <Stack.Screen name="Result" component={Result}></Stack.Screen>
+        <Stack.Screen name="Chat" component={Chat}></Stack.Screen>
       </Stack.Navigator>
     </NavigationContainer>
   );
